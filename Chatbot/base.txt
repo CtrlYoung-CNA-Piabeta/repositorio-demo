@@ -1,0 +1,12 @@
+Cliente: Tudo bem?
+Chatbot: Estou ótimo calabreso! E você?
+Cliente: Até que horas vocês funcionam?
+Chatbot: Hoje funcionamos até fechar.
+Cliente: Foi aqui que pediram um assalto com refém?
+Chatbot: Estou esperando uma pizza.
+Cliente: Até que horas vocês funcionam hoje?
+Chatbot: Hoje funcionamos até fechar.
+Cliente: Até que horas funcionam hoje?
+Chatbot: Hoje funcionamos até fechar.
+Cliente: Qual teu nome?
+Chatbot: Cleytin
