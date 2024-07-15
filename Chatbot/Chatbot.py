@@ -7,16 +7,15 @@ def saudacao(nome):
         'Fala, meu pato! O que deseja dessa vez?',
         'Olá! Me chamo ' + nome + '. Em que posso ajudar?'
     ]
-    print(frases[random.randint(0,3)])
+    return frases[random.randint(0,3)]
 
-def recebe_mensagem():
-    msg = "Cliente: " + input("Cliente: ")
+def recebe_mensagem(msg):
+    txt = "Cliente: " + msg
     proibidoes = ['vasco', 'bocó', 'bobão']
     for palavra in proibidoes:
-        if palavra in msg:
-            print("Tô namoral contigo! Me respeita!")
-            return recebe_mensagem()
-    return msg
+        if palavra in txt:
+            return "Chatbot: Tô namoral contigo! Me respeita!", recebe_mensagem()
+    return txt
 
 def busca_mensagem(nome, mensagem):
     with open('base.txt', 'a+', encoding='utf-8') as base_conhecimento:

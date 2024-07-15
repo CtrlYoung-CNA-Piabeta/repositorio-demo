@@ -7,3 +7,5 @@ while True:
     resposta = Chatbot.busca_mensagem(nome_chatbot, msg)
     if Chatbot.exibe_resposta(resposta, nome_chatbot) == 'Fim':
         break
+
+# GUI -> Graphical User Interface

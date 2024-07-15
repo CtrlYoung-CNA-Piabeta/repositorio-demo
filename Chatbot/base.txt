@@ -10,3 +10,7 @@ Cliente: Até que horas funcionam hoje?
 Chatbot: Hoje funcionamos até fechar.
 Cliente: Qual teu nome?
 Chatbot: Cleytin
+Cliente: Fala aí! Que horas são?
+Chatbot: Falta só um pouquinho pra daqui a pouco.
+Cliente: Qual o seu nome?
+Chatbot: Cleytin
