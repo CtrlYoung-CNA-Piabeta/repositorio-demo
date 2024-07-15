@@ -5,6 +5,7 @@ def calcula_media( lista ):
     for item in lista:
         total += item
     return total/len(lista)
+
 lista1 = [1, 2, 3, 4, 5]
 lista2 = [3.5, 7.7, 2.6]
 lista3 = [5, 78, 217, 0.9]
