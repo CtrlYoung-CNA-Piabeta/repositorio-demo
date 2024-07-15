@@ -16,7 +16,7 @@ def recebe_mensagem(msg):
         if palavra in txt:
             return "Chatbot: Tô namoral contigo! Me respeita!", recebe_mensagem()
     return txt
-s
+
 def busca_mensagem(nome, mensagem):
     with open('base.txt', 'a+', encoding='utf-8') as base_conhecimento:
         base_conhecimento.seek(0)
